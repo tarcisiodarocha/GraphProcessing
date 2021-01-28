@@ -8,7 +8,7 @@ Implementar uma biblioteca em Python capaz de processar dados na forma de grafos
 ## Funções Básicas da biblioteca: 
 
 * Graph               - criar um novo grafo vazio.
-* loadData            - carregar um grafo a partir de um dado arquivo de dados em formato texto. O caminho ao arquivo é passado como parâmetro da função. A primeira linha do arquivo possui o número de vértices do grafo e as demais linhas possui os identificadores de dois vértices adjacentes separados por um espaço em branco (vide arquivo "dblp.txt" em anexo).
+* loadData            - carregar um grafo a partir de um dado arquivo de dados em formato texto. O caminho ao arquivo é passado como parâmetro da função. A primeira linha do arquivo possui o número de vértices do grafo e as demais linhas possui os identificadores de dois vértices adjacentes separados por um espaço em branco.
 * minDegree           - devolve o grau mínimo entre todos os vértices do grafo.
 * maxDegree           - devolve o grau máximo entre todos os vérices do grafo.
 * numEdges            - devolve o número de arestas do grafo.
@@ -17,7 +17,7 @@ Implementar uma biblioteca em Python capaz de processar dados na forma de grafos
 
 ## Caso de Uso da Biblioteca
 
-Ler o arquivo de dados "dblp.txt" deste repositório, e processar o grafo correspondente com a biblioteca implementada. Os dados desse arquivo refletem a rede de colaborações de entre pesquisadores em computação. Cada vértice identifica um pesquisador e cada aresta identifica que já houve colaboração entre os pesquisadores. 
+Ler o arquivo de dados "dblp.txt" (que pode ser baixado em https://drive.google.com/file/d/185tfrhy7v0rK8C_kSirjufuf07VFgvvH/view?usp=sharing), e processar o grafo correspondente com a biblioteca implementada. Os dados desse arquivo refletem a rede de colaborações de entre pesquisadores em computação. Cada vértice identifica um pesquisador e cada aresta identifica que já houve colaboração entre os pesquisadores. 
 
 Resultados a serem exibidos como resultado do teste da biblioteca:  
 
